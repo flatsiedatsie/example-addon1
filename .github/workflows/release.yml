@@ -32,7 +32,6 @@ jobs:
         platform: [
           'linux-arm',
           'linux-arm64',
-          'linux-x64',
         ]
         pair: [
           'python:3.7',
