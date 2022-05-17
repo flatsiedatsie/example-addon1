@@ -6,6 +6,10 @@ on:
 
 jobs:
   get-release:
+    permissions:
+      issues: write
+      pull-requests: write
+      contents: write
     runs-on: ubuntu-latest
     steps:
     - name: Get Release
